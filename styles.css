@@ -1,0 +1,382 @@
+
+  div{
+    margin: auto;
+  }
+  .font{
+    font-family: 'Engravers MT';
+    font-size: large;
+  }
+
+  .nav{
+    width: 100%;
+  }
+
+  .Button {
+    border: none;
+    color: rgb(254, 254, 254);
+    padding: 15px 32px ;
+    padding-right: 40px;
+    text-align: center;
+    background-color: black;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+  }
+  .Button:hover {
+    background-color: #0f81cd;
+    color: white;
+}
+
+  footer{
+    margin: auto;
+    background-color: black;
+    padding-bottom: 3%;
+    color: rgba(255, 255, 255, 0.941);
+  }
+  ul{
+    list-style-type: none;
+ 
+  }
+
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    
+  }
+
+  
+
+
+  .list {
+    list-style-type: none;
+    padding: 20px;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.539);
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+
+
+  .list ul {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .list h1{
+    font-size: 15px;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  .list li a {
+  color: rgb(255, 250, 250);
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+.list li a:hover{
+  background-color: #0f81cd;
+  color: white;
+}
+.mycontainer1 {
+  display: flex;
+}
+.mycontainer2 {
+  display: flex;
+}
+.mycontainer2 ul li a{
+  color: #fff;
+}
+.mycontainer2 ul li a:hover{
+  color: #0f81cd;
+}
+
+ul.breadcrumb {
+  list-style: none;
+  font-size: large;
+}
+ul.breadcrumb li {display: inline;}
+ul.breadcrumb li+li:before {
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a:hover {
+  color: #0f81cd;
+}
+ul.breadcrumb li a {color: rgb(254, 255, 254);}
+
+div.mycontainer4 {
+  overflow:auto;
+  display:flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div.mycontainer3 {
+  background-image: url('modelpics/U3696SH-SSH-489_5_KhaddarShirt-Printed_Unstitched_533x.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 650px;
+  height: 600px;
+  margin-right: 15px;
+}
+
+div.mycontainer5 {
+  background-image: url('modelpics/AY5A9207_79e67783-22d4-4d0c-8151-9c190202028f.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 650px;
+  height: 600px;
+  margin-left: 15px;
+  
+}
+div.mycontainer6 {
+  background-image: url('modelpics/0L4A4855.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 650px;
+  height: 600px;
+  margin-right: 15px;
+}
+div.mycontainer7 {
+  background-image: url('modelpics/00024101SHR1_3.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 650px;
+  height: 600px;
+  margin-left: 15px;
+  
+}
+.font5{
+  font-family: 'Engravers MT';
+  font-size: 90px;
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.font5:hover{
+  color: #be0f7bb0;
+  transform: scale(0.8);
+}
+.font6{
+  font-family: 'Engravers MT';
+  font-size: 90px;
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.font6:hover{
+  color: #0a54dfb0;
+  transform: scale(0.8);
+}
+
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 420px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.text {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.539);
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+
+div.mycontainer10 {
+  display:flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ .mycontainer11{
+  border-radius: 40px 40px 40px 40px;
+  border: 2px solid black;
+  height: 40px; 
+  width: 500px
+}
+.mycontainer11:hover{
+  color: rgb(244, 242, 242);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  transform: scale(0.9);
+
+}
+#font11{
+  padding-top: 10px;
+  text-align: center;
+}
+.mycontainer11  a{
+  color: rgb(6, 11, 6);
+  background-color: transparent;
+  text-decoration: none;
+}  
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding-bottom: 13px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.nav a:hover, .dropdown:hover .dropbtn {
+  background-color: #0f81cd;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 154px;
+}
+.dropdown-content a {
+  float: none;
+  color: rgb(231, 227, 227);
+  padding: 7px 7px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.dropdown-content a:hover {
+  color: #0f81cd;
+  background-color: #b8b2b2;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+.section_top{
+  width: 100%; 
+  height: 100vh;
+  overflow: hidden;
+  position: relative ;
+  background-image: url('modelpics/business-poses-for-days.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  animation: change 15s infinite;
+}
+@keyframes change{
+  0%,100%
+  {
+    background-image: url('modelpics/MM-Desktop-Banner-MM_9dd2f715-ab6b-4731-a17c-03d705c21ba7.jpg');
+  }
+  25%
+  {
+    background-image: url('modelpics/MM-Desktop-Banner-SS_17e1c296-d08f-4cd3-9036-7528954d9992.jpg');
+  }
+  50%
+  {
+    background-image: url('modelpics/splash-img-desktop.jpg');
+  }
+  75%
+  {
+    background-image: url('modelpics/8bbccb4f9a522bf8617fa3cdc43ad959.jpg');
+  }
+}
+.mycontainer20{
+  background-image: url('modelpics/business-poses-for-days.JPG');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 20%;
+    height: 50vh;
+    color: rgba(254, 254, 255, 0.941);
+}
